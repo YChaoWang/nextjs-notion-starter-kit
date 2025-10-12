@@ -1,6 +1,8 @@
 {
   "root": true,
-  "extends": ["@fisch0920/eslint-config"],
+  "extends": [
+    "@fisch0920/config"
+  ],
   "rules": {
     "react/prop-types": "off",
     "unicorn/no-array-reduce": "off",
