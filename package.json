@@ -58,7 +58,7 @@
     "rss": "^1.2.2"
   },
   "devDependencies": {
-    "@fisch0920/config/eslint": "^1.2.1",
+    "@fisch0920/config": "^1.2.1",
     "@next/bundle-analyzer": "^15.3.3",
     "@types/node": "^24.5.2",
     "@types/prismjs": "^1.26.5",
