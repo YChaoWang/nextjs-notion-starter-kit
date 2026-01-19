@@ -11,11 +11,11 @@ export default siteConfig({
 
   // basic site info (required)
   name: 'David',
-  domain: 'localhost',
+  domain: 'www.davidunlimited.com',
   author: 'David',
 
   // open graph metadata (optional)
-  description: '這是一個小部落格，分享技術也分享一些解決問題的經驗',
+  description: 'This is a small blog where I share technical knowledge and problem-solving experiences.',
 
   // social usernames (optional)
   // twitter: '#',
@@ -51,12 +51,13 @@ export default siteConfig({
 
   // whether to use the default notion navigation style or a custom one with links to
   // important pages. To use `navigationLinks`, set `navigationStyle` to `custom`.
-  // navigationStyle: 'default'
-  navigationStyle: 'custom',
-  navigationLinks: [
-    {
-      title: 'Blog Posts',
-      pageId: '1d2fe6fa899280afb3a6fc3fa8d4ca4b'
-    }
-  ]
+  navigationStyle: 'default'
+  // includeNotionIdInUrls: true,
+  // navigationStyle: 'custom',
+  // navigationLinks: [
+  //   {
+  //     title: 'Blog Posts',
+  //     pageId: '1d2fe6fa899280afb3a6fc3fa8d4ca4b'
+  //   }
+  // ]
 })
