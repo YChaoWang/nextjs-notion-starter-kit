@@ -18,7 +18,7 @@ export default siteConfig({
   description: '這是一個小部落格，分享技術也分享一些解決問題的經驗',
 
   // social usernames (optional)
-  twitter: '#',
+  // twitter: '#',
   github: 'YChaoWang',
   linkedin: 'david-wang712',
   // mastodon: '#', // optional mastodon profile URL, provides link verification
@@ -55,12 +55,8 @@ export default siteConfig({
   navigationStyle: 'custom',
   navigationLinks: [
     {
-      title: 'About',
-      pageId: 'f1199d37579b41cbabfc0b5174f4256a'
-    },
-    {
-      title: 'Blog',
-      pageId: '6a29ebcb935a4f0689fe661ab5f3b8d1'
+      title: 'Blog Posts',
+      pageId: '1d2fe6fa899280afb3a6fc3fa8d4ca4b'
     }
   ]
 })
