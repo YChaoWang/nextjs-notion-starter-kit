@@ -51,13 +51,13 @@ export default siteConfig({
 
   // whether to use the default notion navigation style or a custom one with links to
   // important pages. To use `navigationLinks`, set `navigationStyle` to `custom`.
-  navigationStyle: 'default'
-  // includeNotionIdInUrls: true,
-  // navigationStyle: 'custom',
-  // navigationLinks: [
-  //   {
-  //     title: 'Blog Posts',
-  //     pageId: '1d2fe6fa899280afb3a6fc3fa8d4ca4b'
-  //   }
-  // ]
+  //navigationStyle: 'default'
+  includeNotionIdInUrls: true,
+  navigationStyle: 'custom',
+  navigationLinks: [
+    {
+      title: 'Blogs',
+      url: 'https://flint-larch-633.notion.site/1d2fe6fa899280afb3a6fc3fa8d4ca4b?v=1d2fe6fa899280a59cd9000c3fa31e58'
+    }
+  ]
 })
