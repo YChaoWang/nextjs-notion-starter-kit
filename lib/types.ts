@@ -21,9 +21,9 @@ export interface ExtendedTweetRecordMap extends ExtendedRecordMap {
 }
 
 export interface Params {
-     [key: string]: string | string[] | undefined
-     pageId: string
-   }
+  [key: string]: string | string[] | undefined
+  pageId: string
+}
 
 export interface Site {
   name: string
