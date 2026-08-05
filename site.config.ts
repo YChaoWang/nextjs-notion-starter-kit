@@ -11,7 +11,7 @@ export default siteConfig({
 
   // basic site info (required)
   name: 'David',
-  domain: 'www.davidunlimited.com',
+  domain: 'www.ichauw.com',
   author: 'David',
 
   // open graph metadata (optional)
